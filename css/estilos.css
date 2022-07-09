@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet');
+:root{
+    --ColorFondo:#740131;
+}
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+
+}
+
+
+.cabezero ul{
+    list-style-type: none;
+    background-color: #2f2f2f;
+    overflow: hidden;
+     margin: -8px auto;
+     padding: 10px 0;
+     border-radius: 10px;
+     position: fixed;
+     display: flex;
+     width: 100%;
+     
+}
+
+.cabezero a{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px 30px;
+    margin: 0;
+    text-decoration: none;
+    transition: 1.5s;
+}
+.cabezero a:hover{
+    color: white;
+    background-color: #878787;
+    margin: 0;
+    padding:5px;
+    border-radius: 10px;
+    transition: 1.5s;
+}
+body{
+    background-color: #000000;
+    background-image: url(https://www.adhesivosnatos.com/wp-content/uploads/2016/10/apple-logo-pegatina.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    width: 100%;
+    background-attachment: fixed;
+}
+.portada{
+   width: 100%;
+}
+.modelos{
+    
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    color:white;
+    font-variant: small-caps;
+    background: linear-gradient(rgb(201, 201, 201),#2f2f2f);
+    border-radius: 10px;
+    margin: 3% 35% ;
+    padding: 0px 10px;
+    transition: 1s;
+}
+.modelos:hover{
+    
+    font-size: 35px;
+    font-variant: small-caps;
+    background: linear-gradient(#02add8, #256a90,#740131);
+    transition: 1s;
+    padding: 0 5px;
+ 
+}
+
+div.contenedor{
+    background-color: rgba(70, 70, 70, 0.286);
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center; 
+    display: flex;
+    height: 300px;
+    /* align-items: flex-start; */
+
+}
+
+div.contenedor img {
+
+    width: 180px;
+    margin: auto 10px;
+
+}
+div.contenedor:hover img{
+    background: linear-gradient(#02add8, #256a90,#740131);
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 50px 2px 50px 8px;
+
+}
+
+.contenedorTarjeta{
+    margin: 50px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.imagenes img{
+   
+    width: 300px;
+    height: 300px;
+
+}
+.tarjeta{
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    height: 400px;
+    box-shadow: 2px 2px 12px lightblue;
+}
+.tarjeta:hover{
+    box-shadow: 2px 2px 20px #740131;
+}
+.textoTarjeta p{
+    text-align: center;
+    font-size: 25px;
+    background-color: #000;
+    color: white;
+    margin: 20px 90px;
+    padding: 5px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.textoTarjeta p:hover{
+    background-color: var(--ColorFondo);
+}
+
+
+.comentario{
+    box-shadow:2px 2px 15px #02add8;
+    height: 130px;
+    width: 600px;
+    border-radius: 10px;
+    margin: 25px 200px;
+     background-color: rgb(172, 230, 255);
+   transition: 2s;
+  
+}
+.comentario:hover{
+    box-shadow:2px 2px 15px #02add8;
+    height: 135px;
+    width: 650px;
+    margin: 30px 150px;
+    font-size: 20px;
+}
+.circuloImagen{
+    display: flex;
+}
+.circuloImagen img{
+    width: 100px;
+    height: 90px;
+    border-radius: 100%;
+    transform: translate(10px);
+  
+}
+.circuloImagen p{
+ color: blue;
+ text-align: center;
+ width: 500px;
+ font-size: 13px;
+ padding: 15px;
+}
+   
+.fondo{
+    background-color: #2f2f2f9e;
+    height: 600px;
+    padding-top: 100px;
+}
+.preguntas{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    color:white;
+    font-variant: small-caps;
+    background-color: #2f2f2f;
+}
+.comentario > p{
+   padding-top: 10px;
+    text-align:center;
+    text-transform: uppercase;
+    font-size: 16px;
+    
+}
+.mas{
+    background-color:  rgba(191, 233, 251, 0.906);
+    font-size: 20px;
+    width: 330px;
+    border-radius: 10px;
+    margin: 10px 90px;
+    padding: 30px; 
+    box-shadow:2px 2px 15px #02add8;
+    float: right;
+    height: 430px;
+}
+.mas h2{
+    color: white;
+    background-color: #ff8fab;
+    border-radius: 10px;
+    font-size: 25px;
+    margin: 0px 10px 10px;
+    text-align: center;
+}
+.mas .elemento label{
+    margin-left: 30px;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+   
+  
+}
+.mas .elemento input{
+    border-radius: 10px;
+     width: 250px;
+     height: 20px;
+     margin: 0px 40PX;
+     border-bottom: 1px solid white;
+     margin-bottom: 20px;
+     border: none;
+     
+ }
+ .boton{
+
+    background-color: #02add8;
+    padding: 10px;
+    border-radius: 10px;
+    margin:  0 40%;
+    color: white;
+    border: 1px solid white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 1s;
+    
+ }
+
+ .boton:hover{
+
+    background-color: #44daff;
+    box-shadow: 2px 2px 20px #02add8;
+    transition: 1s;
+    font-size: 22px;
+
+ }
