@@ -249,7 +249,7 @@ body{
  overflow: hidden;
  width: 65%;
  position: relative;
- left:135px;
+ left: 131px;
  text-align: center;
  bottom: 90px;
 }
@@ -279,7 +279,7 @@ body{
 .mas{
     background-color:  rgba(191, 233, 251, 0.906);
     font-size: 20px;
-    width: 21%;
+    width: 20%;
     border-radius: 10px;
     margin: auto 90px;
     padding: 30px; 
@@ -293,7 +293,8 @@ body{
     background-color: #ff8fab;
     border-radius: 10px;
     font-size: 25px;
-    margin: 0px 10px 10px;
+    margin: auto;
+    width: 80%;
     text-align: center;
     overflow: hidden;
 }
@@ -302,7 +303,7 @@ body{
     overflow: hidden;
     color: white;
     font-size: 15px;
-    padding: 10px;
+    padding: 3%;
    
   
 }
@@ -310,8 +311,7 @@ body{
     border-radius: 10px;
      width: 80%;
      height: 20%;
-     margin: 0px 40PX;
-     border-bottom: 1px solid white;
+     margin: 10px 20px;
      margin-bottom: 20px;
      border: none;
      
