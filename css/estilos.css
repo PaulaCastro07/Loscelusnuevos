@@ -217,13 +217,13 @@ body{
 
 .comentario{
     box-shadow:2px 2px 15px #02add8;
-    height: 130px;
-    width: 60%;
+    max-height: 130px;
+    max-width: 60%;
     border-radius: 10px;
     margin: 25px 100px;
     background-color: rgb(172, 230, 255);
    transition: 2s;
-overflow: hidden;
+    overflow: hidden;
   
 }
 .comentario:hover{
