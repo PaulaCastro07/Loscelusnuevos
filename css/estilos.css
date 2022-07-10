@@ -223,8 +223,7 @@ body{
     margin: 25px 200px;
     background-color: rgb(172, 230, 255);
    transition: 2s;
- 
-  
+overflow: hidden;
   
 }
 .comentario:hover{
