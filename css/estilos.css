@@ -218,7 +218,7 @@ body{
 .comentario{
     box-shadow:2px 2px 15px #02add8;
     height: 130px;
-    width: 40%;
+    width: 60%;
     border-radius: 10px;
     margin: 25px 200px;
     background-color: rgb(172, 230, 255);
@@ -230,7 +230,7 @@ body{
 .comentario:hover{
     box-shadow:2px 2px 15px #02add8;
     height: 135px;
-    width: 41%;
+    width: 61%;
     margin: 30px 150px;
     font-size: 20px;
 }
@@ -340,4 +340,8 @@ body{
     transition: 1s;
     font-size: 22px;
     overflow: hidden;
+ }
+ .comentarioPadre{
+   
+    width: 65%;
  }
