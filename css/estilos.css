@@ -217,8 +217,8 @@ body{
 
 .comentario{
     box-shadow:2px 2px 15px #02add8;
-    max-height: 130px;
-    max-width: 60%;
+    max-height: 140px;
+    max-width: 70%;
     border-radius: 10px;
     margin: 25px 100px;
     background-color: rgb(172, 230, 255);
@@ -228,14 +228,13 @@ body{
 }
 .comentario:hover{
     box-shadow:2px 2px 15px #02add8;
-    height: 135px;
-    width: 61%;
-    margin: 30px 150px;
+    max-height: 142px;
+    max-width: 71%;
+    margin: 20px 120px;
     font-size: 20px;
+    overflow: hidden;
 }
-.circuloImagen{
-    display: contents;
-}
+
 .circuloImagen img{
     position: relative;
     width: 14%;
@@ -246,12 +245,11 @@ body{
 
 .circuloImagen p{
  color:blue;
- font-size: 13px;
- overflow: visible;
- width: 70%;
- 
+ font-size: 12px;
+ overflow: hidden;
+ width: 65%;
  position: relative;
- left:120px;
+ left:135px;
  text-align: center;
  bottom: 90px;
 }
@@ -275,7 +273,7 @@ body{
     text-align:center;
     right: 20px;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 14px;
     
 }
 .mas{
