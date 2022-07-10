@@ -217,27 +217,30 @@ body{
 
 .comentario{
     box-shadow:2px 2px 15px #02add8;
-    max-height: 130px;
-    max-width: 600px;
+    height: 130px;
+    width: 40%;
     border-radius: 10px;
     margin: 25px 200px;
     background-color: rgb(172, 230, 255);
    transition: 2s;
+ 
   
   
 }
 .comentario:hover{
     box-shadow:2px 2px 15px #02add8;
-    max-height: 135px;
-    max-width: 650px;
+    height: 135px;
+    width: 41%;
     margin: 30px 150px;
     font-size: 20px;
 }
-
+.circuloImagen{
+    display: contents;
+}
 .circuloImagen img{
     position: relative;
-    max-width: 90px;
-    max-height:80px;
+    width: 14%;
+    height:80px;
     border-radius: 100%;
     margin: 15px;
 }
@@ -246,7 +249,7 @@ body{
  color:blue;
  font-size: 13px;
  overflow: visible;
- max-width: 450px;
+ width: 70%;
  
  position: relative;
  left:120px;
@@ -279,13 +282,13 @@ body{
 .mas{
     background-color:  rgba(191, 233, 251, 0.906);
     font-size: 20px;
-    width: 330px;
+    width: 21%;
     border-radius: 10px;
     margin: 10px 90px;
     padding: 30px; 
     box-shadow:2px 2px 15px #02add8;
     float: right;
-    height: 430px;
+    height: 70%;
 }
 .mas h2{
     color: white;
@@ -294,9 +297,11 @@ body{
     font-size: 25px;
     margin: 0px 10px 10px;
     text-align: center;
+    overflow: hidden;
 }
 .mas .elemento label{
     margin-left: 30px;
+    overflow: hidden;
     color: white;
     font-size: 15px;
     padding: 10px;
@@ -305,12 +310,13 @@ body{
 }
 .mas .elemento input{
     border-radius: 10px;
-     width: 250px;
-     height: 20px;
+     width: 80%;
+     height: 20%;
      margin: 0px 40PX;
      border-bottom: 1px solid white;
      margin-bottom: 20px;
      border: none;
+     overflow: hidden;
      
  }
  .boton{
@@ -324,7 +330,7 @@ body{
     font-size: 20px;
     cursor: pointer;
     transition: 1s;
-    
+    overflow: hidden;
  }
 
  .boton:hover{
@@ -333,5 +339,5 @@ body{
     box-shadow: 2px 2px 20px #02add8;
     transition: 1s;
     font-size: 22px;
-
+    overflow: hidden;
  }
