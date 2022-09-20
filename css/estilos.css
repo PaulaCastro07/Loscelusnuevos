@@ -354,17 +354,18 @@ body{
 
  .icono{
     background-color: blueviolet;
-    height: 200px;
+    height: 100px;
     display: flex;
 
     justify-content: space-around;
-    margin-top: 100px;
+    
     
  }
  .icono i{
     
     color: #000000;
     font-size: 30px;
+    margin: auto;
     
  }
  
